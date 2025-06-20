@@ -1,65 +1,72 @@
 <p align="center">
-  <img src="logo.png" alt="FinWiseAI Logo" width="150"/>
+  <img src="logo.png" alt="FinWiseAI Logo" width="200"/>
 </p>
 
-<h1 align="center">💸 FinWiseAI – AI Financial Coach</h1>
+<h1 align="center">💸 FinWiseAI – AI Financial Coach Powered by Google ADK</h1>
 
 <p align="center">
-  Personalized financial advice powered by Google's Agent Development Kit (ADK) and Gemini AI.
+ FinWiseAI is a multi-agent, AI-powered financial advisor built with Google's Agent Development Kit (ADK) and Gemini AI. This interactive Streamlit application delivers intelligent, personalized insights for budgeting, saving, and debt management designed for individuals seeking actionable financial guidance.
 </p>
 
 
-# AI Financial Coach Agent with Google ADK 💰
-
-The **AI Financial Coach** is a personalized financial advisor powered by Google's ADK (Agent Development Kit) framework. This app provides comprehensive financial analysis and recommendations based on user inputs including income, expenses, debts, and financial goals.
-
-## Features
-
-- **Multi-Agent Financial Analysis System**
-    - Budget Analysis Agent: Analyzes spending patterns and recommends optimizations
-    - Savings Strategy Agent: Creates personalized savings plans and emergency fund strategies
-    - Debt Reduction Agent: Develops optimized debt payoff strategies using avalanche and snowball methods
-
-- **Expense Analysis**:
-  - Supports both CSV upload and manual expense entry
-  - CSV transaction analysis with date, category, and amount tracking
-  - Visual breakdown of spending by category
-  - Automated expense categorization and pattern detection
-
-- **Savings Recommendations**:
-  - Emergency fund sizing and building strategies
-  - Custom savings allocations across different goals
-  - Practical automation techniques for consistent saving
-  - Progress tracking and milestone recommendations
-
-- **Debt Management**:
-  - Multiple debt handling with interest rate optimization
-  - Comparison between avalanche and snowball methods
-  - Visual debt payoff timeline and interest savings analysis
-  - Actionable debt reduction recommendations
-
-- **Interactive Visualizations**:
-  - Pie charts for expense breakdown
-  - Bar charts for income vs. expenses
-  - Debt comparison graphs
-  - Progress tracking metrics
 
 
-## How to Run
+## 🚀 Key Features
 
-Follow the steps below to set up and run the application:
+### 🤖 Multi-Agent Architecture
 
-1. **Get API Key**:
-   - Get a free Gemini API Key from Google AI Studio: https://aistudio.google.com/apikey
-   - Create a `.env` file in the project root and add your API key:
-     ```
-     GOOGLE_API_KEY=your_api_key_here
-     ```
+Leverages Google's ADK to orchestrate a pipeline of intelligent agents:
+
+- **🔍 Budget Analysis Agent**  
+  Identifies spending patterns, highlights inefficiencies, and provides cost-saving recommendations.
+
+- **💰 Savings Strategy Agent**  
+  Calculates optimal emergency fund targets, allocates savings by goal, and suggests automation techniques for consistency.
+
+- **💳 Debt Reduction Agent**  
+  Develops data-driven payoff strategies using both **avalanche** and **snowball** methods, supported by impact analysis and timelines.
+
+---
+
+### 📊 Advanced Financial Analysis
+
+- **Flexible Expense Input**  
+  Upload expenses via CSV or enter them manually through the UI.
+
+- **Dynamic Data Visualization**  
+  - Category-wise spending pie charts  
+  - Income vs. Expense bar comparisons  
+  - Debt balance vs. interest savings plots  
+  - Real-time progress tracking metrics
+
+- **Smart Recommendations**  
+  - Goal-driven savings advice  
+  - Emergency fund planning  
+  - Debt consolidation opportunities  
+  - Behavior-based budget optimization
+
+- **User Privacy & Security**  
+  - All data is processed locally  
+  - No financial data is stored or transmitted externally  
+  - API communications are secured using `.env` secrets
+
+---
+
+## 🛠️ Setup & Execution
+
+### 1. 🔐 Get Your Gemini API Key
+
+- Sign in to [Google AI Studio](https://aistudio.google.com/apikey)
+- Create a `.env` file in the root directory and add your key:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/ai_agent_tutorials/ai_financial_coach_agent
+      git clone https://github.com/ShreyasGosavi404/FinWiseAI.git
+      cd FinWiseAI
+
    ```
 
 3. **Install Dependencies**:
@@ -88,3 +95,25 @@ Date,Category,Amount
 ```
 
 A template CSV file can be downloaded directly from the application's sidebar.
+
+
+## 🧠 Powered By
+
+- [Google ADK](https://developers.google.com/agent-development-kit)
+- [Gemini AI](https://deepmind.google/technologies/gemini/)
+- [Streamlit](https://streamlit.io/)
+- [Plotly](https://plotly.com/python/)
+
+---
+
+## 📌 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+If you have ideas, improvements, or feature requests, please [open an issue](https://github.com/ShreyasGosavi404/FinWiseAI/issues) or submit a pull request.
+
