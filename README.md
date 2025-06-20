@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="logo.png" alt="FinWiseAI Logo" width="150"/>
+</p>
+
+<h1 align="center">💸 FinWiseAI – AI Financial Coach</h1>
+
+<p align="center">
+  Personalized financial advice powered by Google's Agent Development Kit (ADK) and Gemini AI.
+</p>
+
+
 # AI Financial Coach Agent with Google ADK 💰
 
 The **AI Financial Coach** is a personalized financial advisor powered by Google's ADK (Agent Development Kit) framework. This app provides comprehensive financial analysis and recommendations based on user inputs including income, expenses, debts, and financial goals.
